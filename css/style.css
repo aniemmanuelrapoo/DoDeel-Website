@@ -20,10 +20,21 @@
   --color-bg: #1f2641;
   --color-bg1: #2e3267;
   --color-bg2: #424890;
+  --form-width: 40%;
+  --color-red: #da0f3f;
+  --color-red-light: hsl(346, 87%, 46%, 15%);
+  --color-green: #00c476;
+  --color-green-light: hsl(156, 100%, 38%, 15%);
 
   --container-width-lg: 80%;
   --container-width-md: 90%;
   --container-width-sm: 94%;
+
+  --card-border-radius-1: 0.3rem;
+  --card-border-radius-2: 0.5rem;
+  --card-border-radius-3: 0.8rem;
+  --card-border-radius-4: 2rem;
+  --card-border-radius-5: 5rem;
 
   --transition: all 400ms ease;
 }
