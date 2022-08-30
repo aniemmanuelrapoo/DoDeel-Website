@@ -52,7 +52,7 @@ input, textarea, select{
 }
 
 input::placeholder{
-  color: var(--color-white);
+  color: var(--color-light);
 }
 
 .form__section small{
@@ -62,6 +62,26 @@ input::placeholder{
 
 .form__section small a{
   color: var(--color-primary);
+}
+
+
+/* ===================== SINGLE POST ================== */
+.singlepost{
+  margin: 6rem 0 2rem;
+}
+
+.singlepost__container{
+  background: var(--color-primary);
+  padding: 1rem 2rem 3rem;
+}
+
+.singlepost__thumbnail{
+  margin: 1.5rem 0 1rem;
+}
+
+.singlepost__container p{
+  margin-top: 1rem;
+  line-height: 1.7;
 }
 
 /* ===================== BUTTON ================== */
@@ -103,6 +123,12 @@ input::placeholder{
 @media screen and (max-width: 600px) {
   /* =========== General FORM ============== */
   .form__section-container{
+    padding: 0;
+  }
+
+  /* =========== SINGLEPOST ============== */
+  .singlepost__container{
+    background: transparent;
     padding: 0;
   }
 }
