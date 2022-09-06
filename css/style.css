@@ -138,6 +138,15 @@ nav{
   align-items: center;
 }
 
+.logo_img{
+  width: 10%;
+}
+
+.logo__holder{
+  display: flex;
+  align-items: center;
+}
+
 nav button{
   display: none;
 }
@@ -537,6 +546,10 @@ footer ul li a:hover{
 
   .nav__menu li:nth-child(5){
     animation-delay: 800ms;
+  }
+
+  .nav__menu li:nth-child(6){
+    animation-delay: 1s;
   }
 
   @keyframes animateNavItems {
