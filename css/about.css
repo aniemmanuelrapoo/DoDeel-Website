@@ -65,13 +65,13 @@
 
 .team__container{
   display: grid;
-  grid-template-columns: repeat(4, 1fr);
+  grid-template-columns: repeat(3, 1fr);
   gap: 2rem;
 }
 
 .team__member{
   background: var(--color-bg2);
-  padding: 2rem;
+  padding: 1rem;
   border: 1px solid transparent;
   border-radius: 1rem;
   transition: var(--transition);
@@ -85,13 +85,13 @@
 }
 
 .team__member-image img{
-  filter: saturate(0);
+  filter: saturate(1);
   border-radius: 0.5rem;
-  height: 200px;
+  height: 500px;
 }
 
 .team__member:hover img{
-  filter: saturate(1);
+  filter: saturate(0);
 }
 
 .team__member-info *{
@@ -146,7 +146,7 @@
   }
 
   .team__container{
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(2, 1fr);
     gap: 1.5rem;
   }
 
@@ -163,7 +163,7 @@
   }
 
   .team__container{
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr;
     gap: 0.7rem;
   }
 
